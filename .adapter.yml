@@ -1,6 +1,6 @@
 name: coinbase-spot-price
 description: External adapter for Coinbase spot price
-node_identifier: example
+node_identifier: simplylinked
 platforms:
   - Cloudflare Workers
 data_sources:
