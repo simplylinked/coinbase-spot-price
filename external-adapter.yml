@@ -1,0 +1,10 @@
+name: coinbase-spot-price
+description: External adapter for Coinbase spot price
+node_identifier: example
+platforms:
+  - Cloudflare Workers
+data_sources:
+  - name: Coinbase
+    url: https://api.coinbase.com/v2/prices/
+parameters:
+  - pair
